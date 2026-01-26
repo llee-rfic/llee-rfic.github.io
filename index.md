@@ -14,7 +14,7 @@ title: "Projects"
 }
 
 .paper-img-col {
-  flex: 0 0 280px; /* Fixed width for the image */
+  flex: 0 0 280px; 
   max-width: 280px;
 }
 
@@ -27,14 +27,15 @@ title: "Projects"
 }
 
 .paper-content-col {
-  flex: 1; /* Takes up remaining space */
+  flex: 1; 
 }
 
 .paper-title {
   display: block;
   font-size: 1.15em;
   font-weight: 700;
-  color: #d32f2f !important; /* CHANGED TO RED */
+  /* THE RED TITLE */
+  color: #d32f2f !important; 
   text-decoration: none;
   margin-bottom: 8px;
   line-height: 1.3;
@@ -42,7 +43,7 @@ title: "Projects"
 
 .paper-title:hover {
   text-decoration: underline;
-  color: #b71c1c; /* Darker red on hover */
+  color: #b71c1c !important; 
 }
 
 .paper-authors {
@@ -56,30 +57,34 @@ title: "Projects"
   margin-top: 10px;
 }
 
+/* --- BUTTONS UPDATED HERE --- */
 .badge-btn {
   display: inline-flex;
   align-items: center;
-  background-color: #f3f3f3;
-  color: #333;
-  border: 1px solid #d1d1d1;
+  background-color: #fff; /* Start white */
+  color: #d32f2f !important; /* Red text */
+  border: 1px solid #d32f2f; /* Red border */
   padding: 4px 10px;
   border-radius: 4px;
   font-size: 0.85em;
   font-weight: 600;
   text-decoration: none !important;
   margin-right: 8px;
-  transition: background 0.2s;
+  transition: all 0.2s ease-in-out; /* Smooth animation */
 }
 
+/* HOVER EFFECT: Fills with red */
 .badge-btn:hover {
-  background-color: #e0e0e0;
+  background-color: #d32f2f !important; /* Turns solid red */
+  color: #fff !important; /* Text turns white */
+  box-shadow: 0 2px 5px rgba(211, 47, 47, 0.3); /* Adds a little glow */
 }
+/* ---------------------------- */
 
 .badge-btn i {
   margin-right: 5px;
 }
 
-/* Mobile Responsive */
 @media (max-width: 768px) {
   .paper-item { flex-direction: column; }
   .paper-img-col { flex: 0 0 auto; max-width: 100%; width: 100%; }

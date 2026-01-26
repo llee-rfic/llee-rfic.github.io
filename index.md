@@ -5,7 +5,6 @@ title: "Projects"
 ---
 
 <style>
-/* This CSS creates the "Academic Layout" */
 .paper-item {
   display: flex;
   gap: 25px;

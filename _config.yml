@@ -6,7 +6,7 @@ baseurl: "" # Keep this empty for user/org sites
 
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "dark" # Options: "air", "default", "dark", "contrast"
+minimal_mistakes_skin: "dark"
 
 # Enable Math (for your derivations)
 mathjax: true
@@ -14,7 +14,7 @@ mathjax: true
 # Sidebar / Author Profile
 author:
   name: "Linyang Lee"
-  avatar: "/assets/images/headshot.jpeg" # We will add this file in Step 4
+  avatar: "/assets/images/headshot.jpeg"
   bio: "EE @ UT Austin"
   location: "Austin, TX"
   links:
@@ -23,7 +23,7 @@ author:
       url: "https://github.com/piboi"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:your-email@example.com" # Update this later
+      url: "mailto:linyanglee@utexas.edu"
 
 # Plugins
 plugins:

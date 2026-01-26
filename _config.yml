@@ -6,7 +6,7 @@ baseurl: "" # Keep this empty for user/org sites
 
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "contrast"
 
 # Enable Math (for your derivations)
 mathjax: true

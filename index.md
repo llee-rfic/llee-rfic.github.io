@@ -14,4 +14,4 @@ Below is a selection of my recent projects.
 
 [View Presentation](/assets/documents/drp_f25_presentation.pdf){: .btn .btn--primary}
 
-{: .clearfix}
+<div style="clear:both;"></div>

@@ -89,14 +89,21 @@ title: "Projects"
   .paper-item { flex-direction: column; }
   .paper-img-col { flex: 0 0 auto; max-width: 100%; width: 100%; }
 }
-  
-.author__avatar img {
+
+/* FORCE PROFILE IMAGE OPACITY (The Nuclear Option) */
+.sidebar .author__avatar img, 
+.sidebar .author__avatar a,
+.author__avatar img,
+.author__avatar a {
   opacity: 1 !important;
-  filter: none !important; /* Removes any grayscale or dimming filters */
+  filter: none !important;
+  -webkit-filter: none !important;
+  transition: none !important; /* Kills the fading animation entirely */
 }
 
-/* Ensure the link container doesn't dim it either */
-.author__avatar a {
+/* Ensure it doesn't try to change on hover either */
+.sidebar .author__avatar:hover img,
+.sidebar .author__avatar a:hover {
   opacity: 1 !important;
 }
 </style>

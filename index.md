@@ -90,22 +90,6 @@ title: "Projects"
   .paper-img-col { flex: 0 0 auto; max-width: 100%; width: 100%; }
 }
 
-/* FORCE PROFILE IMAGE OPACITY (The Nuclear Option) */
-.sidebar .author__avatar img, 
-.sidebar .author__avatar a,
-.author__avatar img,
-.author__avatar a {
-  opacity: 1 !important;
-  filter: none !important;
-  -webkit-filter: none !important;
-  transition: none !important; /* Kills the fading animation entirely */
-}
-
-/* Ensure it doesn't try to change on hover either */
-.sidebar .author__avatar:hover img,
-.sidebar .author__avatar a:hover {
-  opacity: 1 !important;
-}
 </style>
 
 <div class="paper-item">

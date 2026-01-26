@@ -1,0 +1,30 @@
+# Site Settings
+title: "Linyang Lee"
+description: "Electrical Engineering"
+url: "https://llee-rfic.github.io"
+baseurl: "" # Keep this empty for user/org sites
+
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "air" # Options: "air", "default", "dark", "contrast"
+
+# Enable Math (for your derivations)
+mathjax: true
+
+# Sidebar / Author Profile
+author:
+  name: "Linyang Lee"
+  avatar: "/assets/images/profile.jpg" # We will add this file in Step 4
+  bio: "EE @ UT Austin"
+  location: "Austin, TX"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/piboi"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:your-email@example.com" # Update this later
+
+# Plugins
+plugins:
+  - jekyll-include-cache

@@ -103,7 +103,8 @@ title: "Projects"
       <strong>Linyang Lee</strong>, Justin Toyota (Mentor)
     </div>
     <p style="font-size: 0.9em; color: #666; margin-bottom: 10px;">
-      An introduction to the intuition behind Randomized Linear Algebra. Approximating large-scale matrix multiplication with a norm-squared sampling of rank-1 matrices. Given as a talk at the Fall 2025 UT Austin DRP Symposium.
+      An introduction to the intuition behind Randomized Linear Algebra. Approximating large-scale matrix multiplication with a norm-squared sampling of rank-1 matrices. 
+      Given as a talk at the Fall 2025 UT Austin DRP Symposium.
     </p>
     <div class="paper-buttons">
       <a href="/assets/documents/drp_f25_presentation.pdf" class="badge-btn">

@@ -94,6 +94,31 @@ title: "Projects"
 
 <div class="paper-item">
   <div class="paper-img-col">
+    <img src="/assets/images/scvm_ps_ss.png" alt="Overcoupling on Self-Compensated Vector Modulation Phase Shifter">
+  </div>
+  <div class="paper-content-col">
+    <a href="/assets/documents/SCVMPS_Derive_Main.pdf" class="paper-title">
+      Mathematical Derivation of Novel SCVMPS
+    </a>
+    <div class="paper-authors">
+      <strong>Linyang Lee</strong>
+    </div>
+    <p style="font-size: 0.9em; color: #666; margin-bottom: 10px;">
+      As part of my research, I did a complete mathematical analysis of an Ultra-Broadband Self-Compensated Vector Modulation (SCVM) Phase Shifter proposed by 
+        <a href="https://ieeexplore.ieee.org/document/11179846" target="_blank" style="color: #d32f2f; text-decoration: none;">
+        Tang et al. (JSSC 2025)
+      </a> to gain a better intuitive understanding of their novel work.
+    </p>
+    <div class="paper-buttons">
+      <a href="/assets/documents/SCVMPS_Derive_Main.pdf" class="badge-btn">
+        <i class="fas fa-file-pdf"></i> PDF
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="paper-item">
+  <div class="paper-img-col">
     <img src="/assets/images/cover_photo_drpf25.png" alt="Matrix Multiplication">
   </div>
   <div class="paper-content-col">
@@ -109,7 +134,7 @@ title: "Projects"
     </p>
     <div class="paper-buttons">
       <a href="/assets/documents/drp_f25_presentation.pdf" class="badge-btn">
-        <i class="fas fa-file-pdf"></i> PDF Slides
+        <i class="fas fa-file-pdf"></i> PDF
       </a>
     </div>
   </div>

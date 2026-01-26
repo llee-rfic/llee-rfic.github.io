@@ -89,6 +89,16 @@ title: "Projects"
   .paper-item { flex-direction: column; }
   .paper-img-col { flex: 0 0 auto; max-width: 100%; width: 100%; }
 }
+  
+.author__avatar img {
+  opacity: 1 !important;
+  filter: none !important; /* Removes any grayscale or dimming filters */
+}
+
+/* Ensure the link container doesn't dim it either */
+.author__avatar a {
+  opacity: 1 !important;
+}
 </style>
 
 <div class="paper-item">

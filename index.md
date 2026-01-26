@@ -34,7 +34,7 @@ title: "Projects"
   display: block;
   font-size: 1.15em;
   font-weight: 700;
-  color: #d32f2f; /* CHANGED TO RED */
+  color: #d32f2f !important; /* CHANGED TO RED */
   text-decoration: none;
   margin-bottom: 8px;
   line-height: 1.3;

@@ -14,7 +14,7 @@ mathjax: true
 # Sidebar / Author Profile
 author:
   name: "Linyang Lee"
-  avatar: "/assets/images/profile.jpg" # We will add this file in Step 4
+  avatar: "/assets/images/headshot.jpeg" # We will add this file in Step 4
   bio: "EE @ UT Austin"
   location: "Austin, TX"
   links:

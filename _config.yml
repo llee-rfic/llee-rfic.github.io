@@ -3,6 +3,7 @@ title: "Linyang Lee"
 description: "Electrical Engineering"
 url: "https://llee-rfic.github.io"
 baseurl: "" # Keep this empty for user/org sites
+google_site_verification: "m2fVeww4ao0jZNpYvWf1CXJ9rwJ-xqmCz9NdVIsAq8g" # SEO / Search Console
 
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"

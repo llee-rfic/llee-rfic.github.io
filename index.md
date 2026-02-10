@@ -104,7 +104,7 @@ title: "Projects"
       <strong>Linyang Lee</strong>
     </div>
     <p style="font-size: 0.9em; color: #666; margin-bottom: 10px;">
-      A complete mathematical analysis of an Ultra-Broadband Self-Compensated Vector Modulation (SCVM) Phase Shifter proposed by 
+      A complete mathematical analysis of the Ultra-Broadband Self-Compensated Vector Modulation (SCVM) Phase Shifter proposed by 
         <a href="https://ieeexplore.ieee.org/document/11179846" target="_blank" style="color: #d32f2f; text-decoration: none;">
         Tang et al. (JSSC 2025)
       </a> to gain a better intuitive understanding of their work.

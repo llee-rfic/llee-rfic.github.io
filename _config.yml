@@ -29,3 +29,4 @@ author:
 # Plugins
 plugins:
   - jekyll-include-cache
+  - jekyll-sitemap
